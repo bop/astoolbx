@@ -34,11 +34,14 @@ import FeedbackForm from '../components/FeedbackForm.astro';
     </div>
     <FeedbackForm />
     <a class="jokes-link" href="/api/joke">
-    <hr />
+      <hr />
       <h3>Click here for function-loaded jokes!</h3>
     </a>
     <h3>Iframe from swiss mountain</h3>
-<iframe src="https://map.geo.admin.ch/#/embed?lang=fr&center=2572815.08,1120105.77&z=9.756&topic=ech&layers=ch.swisstopo.zeitreihen@year=1864,f;ch.bfs.gebaeude_wohnungs_register,f;ch.bav.haltestellen-oev,f;ch.swisstopo.swisstlm3d-wanderwege;ch.vbs.schiessanzeigen,f;ch.astra.wanderland-sperrungen_umleitungen,f&bgLayer=ch.swisstopo.pixelkarte-farbe" style="border: 0;width: 800px;height: 600px;max-width: 100%;max-height: 100%;" allow="geolocation"></iframe>
+    <iframe
+      src="https://map.geo.admin.ch/#/embed?lang=fr&center=2572815.08,1120105.77&z=9.756&topic=ech&layers=ch.swisstopo.zeitreihen@year=1864,f;ch.bfs.gebaeude_wohnungs_register,f;ch.bav.haltestellen-oev,f;ch.swisstopo.swisstlm3d-wanderwege;ch.vbs.schiessanzeigen,f;ch.astra.wanderland-sperrungen_umleitungen,f&bgLayer=ch.swisstopo.pixelkarte-farbe"
+      style="border: 0;width: 800px;height: 600px;max-width: 100%;max-height: 100%;"
+      allow="geolocation"></iframe>
   </main>
 </Layout>
 
